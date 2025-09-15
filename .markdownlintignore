@@ -1,0 +1,14 @@
+# nix build & dev
+.direnv
+result
+
+# hugo build outputs
+public
+resources
+
+# node
+node_modules
+
+# flake themes
+themes
+

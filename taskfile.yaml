@@ -1,0 +1,41 @@
+---
+version: "3"
+
+tasks:
+  default:
+    desc: Show available tasks
+    cmds:
+      - task --list
+
+  serve:
+    desc: Run Hugo development server with drafts
+    cmds:
+      - hugo server -D
+
+  build:
+    desc: Build the site using Nix
+    cmds:
+      - nix build
+
+  clean:
+    desc: Remove build artifacts and cache
+    cmds:
+      - rm -rf public resources .hugo_build.lock result
+
+  format:
+    desc: Format all code files
+    cmds:
+      - prettier --write "**/*.{md,html,css,js}"
+
+  lint:
+    desc: Lint all code files
+    cmds:
+      - markdownlint "**/*.md" || true
+      - deadnix . || true
+      - statix check . || true
+      - find . -name "*.yml" -o -name "*.yaml" | xargs -r yamllint || true
+
+  check:
+    desc: Run Hugo in verbose mode to check for issues
+    cmds:
+      - hugo --verbose

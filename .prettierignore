@@ -1,0 +1,14 @@
+# nix stuff
+.direnv
+result
+
+# hugo build output
+public
+resources
+
+# node/npm junk
+node_modules
+
+# themes pulled in by flake
+themes
+

@@ -1,0 +1,7 @@
+baseURL = 'https://opalbolt.github.io/blog/'
+languageCode = 'en-us'
+title = 'My New Hugo site'
+theme = 'default'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

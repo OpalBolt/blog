@@ -1,0 +1,27 @@
+extends: default
+
+rules:
+  # Allow longer lines in YAML files
+  line-length:
+    max: 120
+    level: warning
+  
+  # Allow quoted strings
+  quoted-strings: disable
+  
+  # Allow truthy values like 'yes', 'no'
+  truthy:
+    allowed-values: ['true', 'false', 'yes', 'no']
+  
+  # Relax indentation rules for better readability
+  indentation:
+    spaces: 2
+    indent-sequences: true
+    check-multi-line-strings: false
+  
+  # Allow empty values
+  empty-values: disable
+  
+  # Allow comments
+  comments:
+    min-spaces-from-content: 1

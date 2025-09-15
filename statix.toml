@@ -1,0 +1,10 @@
+disabled = []
+nix_version = '2.4'
+ignore = [
+  '.direnv',
+  'result',
+  'public',
+  'themes',
+  'node_modules'
+]
+
