@@ -2,7 +2,7 @@
 date = '2025-09-15T19:54:35+02:00'
 draft = false
 tags = ['test', 'hello']
-categories = ['test']
+categories = ['test', 'post']
 title = 'Hello World'
 +++
 

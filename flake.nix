@@ -25,7 +25,7 @@
       system:
       let
         pkgs = import nixpkgs { inherit system; };
-        selectedTheme = "paper-mod";
+        selectedTheme = "blowfish";
         themeSource = builtins.getAttr selectedTheme inputs;
       in
       rec {
@@ -60,6 +60,8 @@
             statix
             yamllint
             yq-go
+            imagemagick_light
+            libwebp
           ];
           shellHook = ''
             echo "In dev shell. Try: hugo server -D"
