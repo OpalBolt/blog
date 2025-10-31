@@ -38,12 +38,12 @@ I have defined a few inputs, these to define where our dependencies are coming f
   };
 ```
 
-This is a easy way to include data that we normally add using git sub-modules, but instead we get nix to handle downloading the data and making it available through the nix store. This is also a way for us to easily go back to eailer versions of said repo.
-Having Nix handle these theme github repos also ensures that we can have the same versions when we test and build, as we will be building using a Github action.
+This is a easy way to include data that we normally add using git sub-modules, but instead we get nix to handle downloading the data and making it available through the nix store. This is also a way for us to easily go back to earlier versions of said repo.
+Having Nix handle these theme GitHub repos also ensures that we can have the same versions when we test and build, as we will be building using a GitHub action.
 
 Further down in the code we have the outputs, for the outputs we define that we would like to have self, nixpkgs and flake-utils available directly, and have all other inputs available in-directly.
 
-```Nix
+```Nix {lineNos=true}
   outputs =
     {
       self,
