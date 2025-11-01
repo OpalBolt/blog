@@ -28,7 +28,7 @@
         selectedTheme = "blowfish";
         themeSource = builtins.getAttr selectedTheme inputs;
       in
-      rec {
+      {
         packages.default = pkgs.stdenv.mkDerivation {
           pname = "skumnet.dk";
           version = "0.1.0";
@@ -76,10 +76,6 @@
           program = "${pkgs.hugo}/bin/hugo";
         };
 
-        # these must reference the *current attrset* (rec makes this possible)
-        defaultPackage = packages.default;
-        defaultApp = apps.default;
-        defaultDevShell = devShells.default;
       }
     );
 }
