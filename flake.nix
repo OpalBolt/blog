@@ -51,7 +51,8 @@
         };
 
         devShells.default = pkgs.mkShell {
-          buildInputs = with pkgs; [
+          packages = with pkgs; [
+            #self.packages.${system}.default <-- we do not want to build the project every time we enter the shell
             hugo
             go-task
             nodePackages.prettier
@@ -70,12 +71,6 @@
 
           '';
         };
-
-        apps.default = {
-          type = "app";
-          program = "${pkgs.hugo}/bin/hugo";
-        };
-
       }
     );
 }
