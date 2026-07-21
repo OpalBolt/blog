@@ -1,5 +1,5 @@
 ---
-title: "AI is not going to kill everyone"
+title: "Does it not look bleak?"
 
 date: 2026-07-20T07:00:00
 
