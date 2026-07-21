@@ -17,7 +17,7 @@ title = "OpalBolt"
 [params.author]
   name = "Mads Kristiansen"
   #email = "youremail@example.com"
-  image = "img/self.webp"
+  image = "img/self.jpg"
   #imageQuality = 96
   headline = "Devops convert trying to find my way in life."
   bio = "Dreaming devops, fearing failure"
