@@ -3,7 +3,7 @@ title: "Does it not look bleak?"
 
 date: 2026-07-20T07:00:00
 
-draft: false
+draft: true
 
 categories:
   - posts
