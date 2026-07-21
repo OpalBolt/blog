@@ -1,6 +1,6 @@
 baseURL = 'https://opalbolt.github.io/blog/'
 languageCode = 'en-us'
-title = 'My New Hugo site'
+title = 'OpalBolt'
 theme = 'default'
 [caches]
   [caches.images]

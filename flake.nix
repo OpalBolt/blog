@@ -55,7 +55,7 @@
             #self.packages.${system}.default <-- we do not want to build the project every time we enter the shell
             hugo
             go-task
-            nodePackages.prettier
+            prettier
             markdownlint-cli
             deadnix
             statix
