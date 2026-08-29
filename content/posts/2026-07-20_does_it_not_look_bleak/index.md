@@ -30,7 +30,7 @@ LLM model (Looks up in a HUGE very complex database) -->
 Provides answer letter by letter based on the content of the databse
 ```
 
-The very complex database is based on all of the text, images, audio, video and whatever else humans has created over the years that LLM companies can steal online. This include scientific papers, all of open-source, every book that has ever been digitized (and some that has not), and whatever else can be reached online. This in turn also means that all predictions that a AI can make is based on humanity providing new novel idea's. A LLM cannot create new ideas, only remix existing ones.
+The very complex database is based on all of the text, images, audio, video and whatever else humans has created over the years that LLM companies can steal online. This include scientific papers, all of open-source, every book that has ever been digitized (and some that has not), and whatever else can be reached online. This in turn also means that any novel outputs a LLM can provide is only able to be provided inside of a framework that humans provide. LLM's cannot without the guiding hands of humans create the framework, choose goals, or chase open ended goals.
 
 ## But what about AGI?
 
@@ -106,7 +106,7 @@ And no it wont be LLM's alone, we are actively working towards the end of civili
 
 ## Humanity will not disappear
 
-Humans are like cockroaches, we are resilient, we will end up at a point where we cannot maintain the current systems running our world, they will grind to a halt, and we will need to read, learn, and rebuild based on old technologies we no longer understand.
+Humans are like cockroaches, we are resilient, if our current way of living ends up crumbling to the ground, and out nice-to-haves that AI and technologies ends up disappearing because we do not have the capabilities to maintain them, then we will not die out, we will simply start over, reset, rebuild and relearn. And come back as a society better than out world is now. This will come through major conflicts, and much suffering, but we will rebuild.
 
 ## So you are not using LLM's?
 
